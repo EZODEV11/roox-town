@@ -1,5 +1,41 @@
-TYPE=bot
-MAIN=index.js
-NAME=ezo
-RAM=100
-VLAN=false
+* {margin:0; padding:0; box-sizing:border-box; font-family: "Tajawal", sans-serif;}
+body {
+  background: url('https://i.ibb.co/Dbrqf1k/respect-bg.jpg') no-repeat center center/cover;
+  color: white;
+  min-height: 100vh;
+}
+header {
+  display:flex; justify-content:space-between; align-items:center;
+  padding:20px 50px; background:rgba(0,0,0,0.6);
+}
+header h1 { font-size:28px; color:#facc15; }
+header nav a {
+  color:white; margin:0 15px; text-decoration:none; font-size:16px;
+  transition:0.3s;
+}
+header nav a:hover { color:#facc15; }
+.hero {
+  text-align:center; padding:120px 20px;
+  background:rgba(0,0,0,0.6);
+}
+.hero h2 { font-size:40px; margin-bottom:20px; }
+.hero p { font-size:18px; margin-bottom:30px; }
+.btn {
+  display:inline-block; padding:12px 25px; border-radius:8px;
+  background:#facc15; color:black; text-decoration:none;
+  margin:10px; font-weight:bold; transition:0.3s;
+}
+.btn:hover { background:#eab308; }
+section {
+  padding:60px 20px; text-align:center;
+  background:rgba(0,0,0,0.7);
+  margin:40px auto; border-radius:15px; max-width:900px;
+}
+section h3 { font-size:28px; margin-bottom:20px; color:#facc15; }
+section p { font-size:18px; line-height:1.8; }
+.link { color:#facc15; text-decoration:none; }
+.link:hover { text-decoration:underline; }
+footer {
+  text-align:center; padding:20px; background:rgba(0,0,0,0.8);
+  margin-top:40px; font-size:14px;
+}
